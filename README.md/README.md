@@ -1,34 +1,18 @@
-# Starter-Kit-2018
+My 5 Phases of Web Development:
 
+Phase#1: Planning the Project.
+Wireframe ... Prototype ... Pen & Paper ... README.md
 
-So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code.
-(if you are coming from my  [youtube channel CodingPhase ](https://www.youtube.com/channel/UC46wWUso9H5KPQcoL9iE3Ug) I will base all my tutorials from this starter kit)
+Phase#2: Build the basic Minimal Viable Project.
+html5_@70% / css3_@70% / javascript-es5_@50% / php7.x_@50% / mysql??_@50% / python3.x_50%. CSS: 
 
-I broke it down in simple steps to get you going.
+Add borders and background-colors to the main containers. This will show a visual representation of the html structure and the css styling. This also helps with the positioning and sizing of the containers. The contents inside the containers can also be positioned and sized visually, and more easily.
 
-**Steps**
----------
+Phase#3: Make the Code more Readable.
+Refactor_@50%(1of2); CleanUp Comments_@50%_(2of3); RWA-Make Mobile-1st_@50%(1of2); Test functionality-UX, responsiveness, accessibility, performance(lighthouse audit), readability-UI, readability(web dev code), etc.
 
-**Download or Pull This Repo**
-	Top of this page you can see where it says clone or download
+Phase#4: Finish building the code for the Minimum Viable Project.
+html5_@99% / css3_@90% / javascript-es5_@99% / php7.x_@99% / mysql??_@99% / python3.x_99%.
 
- **Install Node**
-	https://nodejs.org/en/
-
-**Download Atom**
-	https://atom.io/
-
- **Install all the node packages** 
-On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-    
-    npm install
-    
- **Update the node packages** 
-On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-    
-    npm update
-
-
-**Start the server**
-
-  npm run watch
+Phase#5: Finish making the Code more Readable.
+Refactor_@99%(2of2); CleanUp Comments_@99%_(3of3); RWA-Make Mobile-1st_@99%(2of2); Test functionality-UX, responsiveness, accessibility, performance(lighthouse audit), readability-UI, readability(web dev code), etc.
