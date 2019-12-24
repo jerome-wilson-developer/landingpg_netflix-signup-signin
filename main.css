@@ -32,7 +32,7 @@
 }
 
 
-#header {
+/* #header {
     background: #000;
     color: #fff;
     overflow: auto;
@@ -42,7 +42,7 @@
 #header a{
     font-family: helvetica;
     text-decoration: none;
-}
+} */
 .logo{
     background: #fff;
     display: inline-block;
@@ -58,8 +58,15 @@
     -o-background-size: cover;
     background-size: cover; */
 
-    padding: 200px 25px;
+    /* padding: 200px 25px;
     background: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg) no-repeat left center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+    padding: 200px 25px;
+    background: url(img/9.jpg) no-repeat left center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -247,21 +254,23 @@ padding: 10px;
 
 
 .video1{
-background: url(img/netflix-hero-images-1.jpg) no-repeat left center; 
-    -webkit-background-size: cover;
+background: url(img/1-row1-netflix-hero.jpg) no-repeat left center;
+	height:220px; 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video2{
-background: url(img/netflix-hero-images-2.jpg) no-repeat left center; 
+background: url(img/1-row3-1-unnatural-selection.jpg) no-repeat left center;
+	height:220px; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video3{
-background: url(img/netflix-hero-images-3.jpg) no-repeat left center; 
+background: url(img/1-row3-4-the-brave-one.jpg) no-repeat left center;
+	height:220px;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -451,6 +460,7 @@ img {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #595959;
+	cursor: crosshair;
 	/* width: 100%; */
 }
 
@@ -458,10 +468,10 @@ img {
 	width: 100%;
 } */
 
-/* .tabs .tab-item .fas {
+.tabs .tab-item .fas {
     
 	color:black;
-} */
+}
 
 
 .tabs .container > div {
@@ -470,7 +480,7 @@ img {
 
 .tabs .container > div:hover {
 	color: #fff;
-	cursor: pointer;
+	cursor: crosshair;
 }
 
 .tab-border {
@@ -496,6 +506,7 @@ img {
 #tab-3-content {
 	display: none;
 	opacity: 0;
+	cursor: crosshair;
 }
 
 .show {
@@ -564,6 +575,7 @@ img {
 	max-width: 70%;
 	margin: 1rem auto;
 	overflow: auto;
+	margin-top:150px;
 }
 
 .footer,
