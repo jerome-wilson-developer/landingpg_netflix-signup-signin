@@ -5,47 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Netflix SignIn SignUp Landing page</title>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    
+    <!-- <link rel="stylesheet" href="style.css"> -->    
     <link rel="stylesheet" href="main.css">
 </head>
+
+
+
 <body>
-
-
-<!-- begin the content-section to add content and buttons on the landing page -->
 <!-- cover the entire background w/ a large netflix image -->
-<section id="largeImage">           
+<header id="largeImage">
 
     <!-- begin adding the text and buttons on the landing page -->
     <div class="description-box">
         <!-- <h4>Netflix Presents:</h4> -->
-        <h1>Netflix Presents:</h1>
+        <h1>Netflix 
+            <br/>Presents:</h1>
         <h2>Movies of the Week</h2>
-        <h3>New movies and tv shows added every week</h3>
-        <p>
-            Don't Have Time to Watch the Latest Additions ?? <br/>Watch them later by adding your favorite movies and <br/>tv shows to your personal entertainment playlist !!</p>
-
+        <h3>New movies every week</h3>
+        <p style="color:black; background-color:white; opacity:.9;">
+            No time for movies?
+            <br/>Add favorites to your playlist.
+            <br/>Watch later when you're ready!</p>
     <!-- add the xxxx and the xxxx buttons -->
         <a href="https://www.netflix.com/"><button class="button1">Sign Up</button></a>
         <a href="https://www.netflix.com/login"><button class="button2">Sign In</button></a>
         <!-- <div class="button1">Sign Up</div>
         <div class="button2">Sign In</div> -->
     </div>                   
-</section>   
-<!-- end the content-section to add content and buttons on the landing page -->
+</header>    
+<!-- end adding the text and buttons on the landing page -->
 
 
-
-
-
-
-<!-- begin the footer section -->
-<footer id="videoSection">
-    <section class="row">
-
+<!-- begin trailer previews for 3 new movies -->
+<main id="videoSection">
+    <article class="row">
         <!-- movie: the devil next door -->
         <a href="https://www.netflix.com/title/80201488?trkid=13710079&MSG_TITLE=80201488&lnktrk=EMP&g=0F87EF41ADF8DAF1820F8B512663A3D664559ABB&lkid=TITLE_TITLE">
             <div class="videoBoxes video1">
@@ -67,21 +61,14 @@
                 <p></p>
             </div>
         </a>
-
-    </section>
-</footer>
-<!-- end the footer section -->
-</body>
-</html>
+    </article>
+</main>
+<!-- end trailer previews for 3 new movies -->
 
 
-
-
-
-
-
+<!-- begin the benefits of signing up for netflix -->
 <section class="tabs" style="background-color:white;">
-    <div class="container">
+    <article class="container">
         <div id="tab-1" class="tab-item">
             <i class="fas fa-door-open fa-3x"></i>
             <p class="hide-sm">Cancel at any time</p>
@@ -94,38 +81,35 @@
             <i class="fas fa-tags fa-3x"></i>
             <p class="hide-sm">Pick your price</p>
         </div>
-    </div>
+    </article>
 </section>
+<!-- end the benefits of signing up for netflix -->
 
-
-
-
-
+<!-- begin "if you decide netflix is not for you" -->
 <section class="tab-content">
-    <div class="container">
+    <article class="container">
         <!-- Tab Content 1 -->
         <div id="tab-1-content" class="tab-content-item show">
             <div class="tab-1-content-inner">
                 <div>
                     <p class="text-lg">
-                        If you decide Netflix isn't for you - no problem. No commitment.
-                        Cancel online anytime.
+                        If you decide Netflix isn't for you - no problem. 
+                        <br/>No commitment.
+                        <br/>Cancel online anytime.
                     </p>
-                    <a href="https://www.netflix.com/signup" class="btn btn-lg">Watch Free For 30 Days</a>
+                    <a href="https://www.netflix.com/signup" class="btn btn-lg">
+                        Watch Free For 30 Days
+                    </a>
                 </div>
-                <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+                    <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" 
+                    alt="an image shows you can enjoy netflix on computer, tv, or phone"/>
             </div>
-        </div>
+        </div> 
+    </article>
+</section>
+<!-- end "if you decide netflix is not for you" -->
 
-        
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-
-
+<!-- begin the footer section -->
 <footer class="footer">
     <p>Questions? Call: 1-866-579-7172</p>
     <div class="footer-cols">
@@ -156,3 +140,7 @@
         </ul>
     </div>
 </footer>
+<!-- end the footer section -->
+
+</body>
+</html>
