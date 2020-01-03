@@ -9,7 +9,15 @@ p {
     font-weight: 100;
     color: blue;
 }
-#largeImage{
+
+/* .logo{
+    background: #fff;
+    display: inline-block;
+    margin-right: 25px;
+    padding: 20px;
+} */
+#largeImage{ 
+    padding: 20px 25px;
     background: url(img/hero-movie-1.jpeg) no-repeat left center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,15 +25,15 @@ p {
 	background-size: cover;
 	width: 1350px;
 	height:350px;
-	margin-bottom: 10px; 
-    padding: 20px 25px;
+	margin-bottom: 10px;
 }
 
 /* 
     Description Box 
 */
-/* .description-box{
+.description-box{
 	padding:20px 20px;
+    /* width: 50px; */
 	width: 22%;
 	background-color: white;
 	opacity: .9;
@@ -58,7 +66,7 @@ p {
     font-size: 20px;
     margin: 0 0 50px 0;
     color: wheat;
-} */
+}
 
 
 /* 
@@ -89,7 +97,6 @@ border-radius: 5px;
 #videoSection{
 width: 100%;
 background: black;
-padding: 10px 10px;
 }
 .row{
 font-size: 0;
@@ -97,13 +104,16 @@ width: 100%;
 text-align: center;
 }
 .videoBoxes{
-	display: inline-block;
-	background: red;
-	width: 30%;
-	min-height: 150px;
-	font-size: 16px;
-	margin: 1.0%;
-	padding: 10px;
+display: inline-block;
+background: red;
+
+width: 30%;
+
+min-height: 150px;
+font-size: 16px;
+margin: 1.0%;
+
+padding: 10px;
 }
 .videoBoxes h4{
     font-family: Arial, Helvetica, sans-serif;
@@ -173,57 +183,12 @@ color: #fff;
     font-size: 20px;
     color: #fff;
 }
-/* .video1{
+.video1{
 background: -webkit-linear-gradient(45deg, rgba(231, 31 17, .5) 0%, #000 100%), url(https://comicsagogo.fines.wordpress.com/........jpg);
-} */
-
-.footer {
-	max-width: 70%;
-	margin: 1rem auto;
-	overflow: auto;
-	margin-top:150px;
 }
-
-.footer,
-.footer a {
-	color: #999;
-	font-size: 0.9rem;
-}
-
-.footer p {
-	margin-bottom: 1.5rem;
-
-	color:white;
-}
-
-.footer .footer-cols {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 2rem;
-}
-
-.footer li {
-	line-height: 1.9;
-}
-
-.footer .lang-select {
-	margin-top: 2rem;
-	color: #999;
-	background-color: #000;
-	background-image: none;
-	border: 1px solid #333;
-	padding: 1rem 1.2rem;
-	border-radius: 5px;
-}
-
-
-
-
-
-
 
 /* 2nd css styling ................ Global Styles */
-/* :root {
+:root {
 	--primary-color: #e50914;
 	--dark-color: #141414;
 	--light-color: #f4f4f4;
@@ -334,7 +299,7 @@ img {
 	font-size: 1.9rem;
 	line-height: 1.25;
 	margin: 0 0 2rem;
-} */
+}
 
 /* Tabs */
 .tabs {
@@ -353,11 +318,11 @@ img {
 	text-align: center;
 }
 
-.tabs p {
+/* .tabs p {
     font-size: 1.2rem;
 	padding-top: 0.5rem;
 	color: white;
-}
+} */
 
 .tabs .hide-sm {
     font-size: 1.0rem;
@@ -368,14 +333,14 @@ img {
 	text-transform: uppercase;
 	color: #595959;
 	cursor: crosshair;
-	width: 100%;
+	/* width: 100%; */
 }
 
 /* .tabs .container {
 	width: 100%;
 } */
 
-/* .tabs .tab-item .fas {
+.tabs .tab-item .fas {
     
 	color:black;
 }
@@ -392,10 +357,10 @@ img {
 
 .tab-border {
 	border-bottom: var(--primary-color) 4px solid;
-} */
+}
 
 /* Tab Content */
-/* .tab-content {
+.tab-content {
 	padding: 3rem 0;
 	background: #000;
 	color: #fff;
@@ -476,7 +441,46 @@ img {
 
 .table tbody tr:nth-child(odd) {
 	background: #222;
-} */
+}
+
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+	margin-top:150px;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+
+	color:white;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
+}
 
 /* Container */
 .container {
