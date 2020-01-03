@@ -24,9 +24,8 @@ p {
 /* 
     Description Box 
 */
-.description-box{
+/* .description-box{
 	padding:20px 20px;
-    /* width: 50px; */
 	width: 22%;
 	background-color: white;
 	opacity: .9;
@@ -59,7 +58,7 @@ p {
     font-size: 20px;
     margin: 0 0 50px 0;
     color: wheat;
-}
+} */
 
 
 /* 
@@ -174,9 +173,9 @@ color: #fff;
     font-size: 20px;
     color: #fff;
 }
-.video1{
+/* .video1{
 background: -webkit-linear-gradient(45deg, rgba(231, 31 17, .5) 0%, #000 100%), url(https://comicsagogo.fines.wordpress.com/........jpg);
-}
+} */
 
 .footer {
 	max-width: 70%;
@@ -224,7 +223,7 @@ background: -webkit-linear-gradient(45deg, rgba(231, 31 17, .5) 0%, #000 100%), 
 
 
 /* 2nd css styling ................ Global Styles */
-:root {
+/* :root {
 	--primary-color: #e50914;
 	--dark-color: #141414;
 	--light-color: #f4f4f4;
@@ -335,7 +334,7 @@ img {
 	font-size: 1.9rem;
 	line-height: 1.25;
 	margin: 0 0 2rem;
-}
+} */
 
 /* Tabs */
 .tabs {
@@ -354,13 +353,13 @@ img {
 	text-align: center;
 }
 
-/* .tabs p {
+.tabs p {
     font-size: 1.2rem;
 	padding-top: 0.5rem;
 	color: white;
-} */
+}
 
-/* .tabs .hide-sm {
+.tabs .hide-sm {
     font-size: 1.0rem;
 	padding-top: 0.5rem;
 	color: black;
@@ -369,8 +368,8 @@ img {
 	text-transform: uppercase;
 	color: #595959;
 	cursor: crosshair;
-	/* width: 100%; */
-} */
+	width: 100%;
+}
 
 /* .tabs .container {
 	width: 100%;
