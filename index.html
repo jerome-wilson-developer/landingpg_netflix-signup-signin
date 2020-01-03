@@ -8,54 +8,99 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="style.css"> -->    
     <link rel="stylesheet" href="main.css">
-</head>
 
+    
+<style>
+    /* Desktop View */
+    @media all and (max-width: 960px){
+        .main-wrapper{
+            width:100%;
+        }
+        .main-container{
+            width:100%
+        }
+    }
+    /* Tablet View */
+    @media all and (min-width: 768px) and (max-width: 959px){
+        .main-wrapper{
+            width:100%;
+        }
+        .main-container{
+            width:100%
+        }
+    }
+    /* Smartphone View */
+    @media all and (max-width: 767px){
+        .main-wrapper{
+            width:100%;
+        }
+        .main-container{
+            width:100%
+        }            
+        .disclaimer{
+            display: none;
+        }
+    }     
+</style>
+</head>
 
 
 <body>
 <!-- cover the entire background w/ a large netflix image -->
-<header id="largeImage">
-
-    <!-- begin adding the text and buttons on the landing page -->
-    <div class="description-box">
-        <!-- <h4>Netflix Presents:</h4> -->
-        <h1>Netflix 
-            <br/>Presents:</h1>
-        <h2>Movies of the Week</h2>
-        <h3>New movies every week</h3>
-        <p style="color:black; background-color:white; opacity:.9;">
-            No time for movies?
-            <br/>Add favorites to your playlist.
-            <br/>Watch later when you're ready!</p>
-    <!-- add the xxxx and the xxxx buttons -->
-        <a href="https://www.netflix.com/"><button class="button1">Sign Up</button></a>
-        <a href="https://www.netflix.com/login"><button class="button2">Sign In</button></a>
-        <!-- <div class="button1">Sign Up</div>
-        <div class="button2">Sign In</div> -->
-    </div>                   
+<header 
+id="largeImage">
 </header>    
 <!-- end adding the text and buttons on the landing page -->
 
+<!-- begin header content -->
+<!-- begin adding the text and buttons on the landing page -->
+<section class="header-content" 
+style="font-size:1.5rem; text-align:center; 
+margin:30px 30px 40px 30px; letter-spacing:3px;">
+    <h1>Netflix Presents: Movies of the Week</h1>
+    <h2>New movies every week</h2>
+    <h3>No time for movies?</h3>
+    <p style="margin-bottom:30px; color:#ffffff; 
+    font-size:1.2rem; letter-spacing:3px;
+    font-weight:100;">        
+        <br/>Add favorites to your playlist.
+        <br/>Watch later when you're ready!
+    </p>
+    <article>
+        <a href="https://www.netflix.com/">
+            <button class="button1">
+                Sign Up
+            </button>
+        </a>
+        <a href="https://www.netflix.com/login">
+            <button class="button2"
+            style="margin-bottom:0px;">
+                Sign In
+            </button>
+        </a>
+    </article>
+</section>   
+<!-- end header content -->
 
 <!-- begin trailer previews for 3 new movies -->
 <main id="videoSection">
     <article class="row">
-        <!-- movie: the devil next door -->
-        <a href="https://www.netflix.com/title/80201488?trkid=13710079&MSG_TITLE=80201488&lnktrk=EMP&g=0F87EF41ADF8DAF1820F8B512663A3D664559ABB&lkid=TITLE_TITLE">
+        <!-- movie: mindhunter -->
+        <a href="https://www.netflix.com/title/80114855">
             <div class="videoBoxes video1">
                 <h4></h4>
                 <p></p>
             </div>
         </a>
-        <!-- movie: unnatural selection -->
-        <a href="https://www.netflix.com/title/80208910">
+        <!-- movie: the hunters prayer -->
+        <a href="https://www.netflix.com/title/70295169">
             <div class="videoBoxes video2">
                 <h4></h4>
                 <p></p>
             </div>
         </a>
-        <!-- movie: the brave one -->
-        <a href="https://www.netflix.com/title/70060000">
+        <!-- movie: living undocumented -->
+        <a href="https://www.netflix.com/title/80209609">
             <div class="videoBoxes video3">
                 <h4></h4>
                 <p></p>
@@ -65,9 +110,10 @@
 </main>
 <!-- end trailer previews for 3 new movies -->
 
-
 <!-- begin the benefits of signing up for netflix -->
-<section class="tabs" style="background-color:white;">
+<section class="tabs" 
+style="background-color:white; 
+margin-top:50px;">
     <article class="container">
         <div id="tab-1" class="tab-item">
             <i class="fas fa-door-open fa-3x"></i>
@@ -86,7 +132,7 @@
 <!-- end the benefits of signing up for netflix -->
 
 <!-- begin "if you decide netflix is not for you" -->
-<section class="tab-content">
+<section class="tab-content" style="margin-top:40px;">
     <article class="container">
         <!-- Tab Content 1 -->
         <div id="tab-1-content" class="tab-content-item show">
@@ -111,7 +157,7 @@
 
 <!-- begin the footer section -->
 <footer class="footer">
-    <p>Questions? Call: 1-866-579-7172</p>
+    <p>Questions? ... Call: 1-866-579-7172</p>
     <div class="footer-cols">
         <ul>
             <li><a href="#">FAQ</a></li>
@@ -141,6 +187,5 @@
     </div>
 </footer>
 <!-- end the footer section -->
-
 </body>
 </html>

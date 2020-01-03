@@ -3,128 +3,23 @@
     margin: 0;
     padding: 0;
 }
-/* h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: white;
-} */
-/* h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: white;
-
-} */
-/* h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: white;
-} */
-/* h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: white;
-} */
- p {
+p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 100;
     color: blue;
 }
-
-
-/* #header {
-    background: #000;
-    color: #fff;
-    overflow: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-#header a{
-    font-family: helvetica;
-    text-decoration: none;
-} */
-.logo{
-    background: #fff;
-    display: inline-block;
-    /* float: left; */
-    margin-right: 25px;
-    padding: 20px;
-}
-#largeImage{
-    /* padding: 200px 25px;
-    background: -webkit-linear-gradient(45deg, rgba(231, 31, 17, .2) 0%, #292929 100%), url(https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-
-    /* padding: 200px 25px;
-    background: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg) no-repeat left center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-
-    padding: 200px 25px;
+#largeImage{ 
+    padding: 20px 25px;
     background: url(img/hero-movie-1.jpeg) no-repeat left center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+	background-size: cover;
+	width: 1350px;
+	height:350px;
+	margin-bottom: 10px;
 }
-
-
-/* 
-.leftMenu{
-    background: #00f;
-    display: inline-block;
-    float: left;
-    cursor: grabbing;
-}
-.leftMenu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.leftMenu ul>li{
-    display: inline-block;
-    padding: 20px;
-}
-.leftMenu ul>li>a{
-    color: #292929;                
-    cursor: pointer;
-} */
-/* .leftMenu ul>li>a.dropdown{
-    color: blue;
-} */
-
-
-/* 
-.rightMenu{
-    float: right;
-    background: blue;
-    display: inline-block;
-    color: white;
-    cursor:pointer;
-}
-.rightMenu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.rightMenu ul>li{
-    display: inline-block;
-    padding: 20px;
-}
-.rightMenu ul>li>a{
-    cursor: pointer;
-    color: #fff;
-}
-.leftMenu ul>li>a:hover, .rightMenu ul>li>a:hover{
-    color: #595959;
-} */
-
-
 
 /* 
     Description Box 
@@ -147,7 +42,6 @@
 .description-box h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    /* font-weight: 400; */
     font-size: 25px;
     margin: 0;
     color: #696969;
@@ -174,16 +68,17 @@
 .button1, .button2{
     border: 1px solid #fff;
     /* display: block; */
-    padding: 10px 18px;
+    padding: 10px 100px;
     background: red;
     color: #fff;
-    cursor: grabbing;
-    border-radius: 7px;
+    cursor: pointer;
+    border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-right: 40px;
-    margin-top: -20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+	margin-right: 40px;
+	letter-spacing: 3px;
+    /* margin-top: -20px; */
 }
 
 .button1:hover, .button2:hover{
@@ -195,6 +90,7 @@ border-radius: 5px;
 #videoSection{
 width: 100%;
 background: black;
+padding: 10px 10px;
 }
 .row{
 font-size: 0;
@@ -202,16 +98,13 @@ width: 100%;
 text-align: center;
 }
 .videoBoxes{
-display: inline-block;
-background: red;
-
-width: 30%;
-
-min-height: 150px;
-font-size: 16px;
-margin: 1.0%;
-
-padding: 10px;
+	display: inline-block;
+	background: red;
+	width: 30%;
+	min-height: 150px;
+	font-size: 16px;
+	margin: 1.0%;
+	padding: 10px;
 }
 .videoBoxes h4{
     font-family: Arial, Helvetica, sans-serif;
@@ -236,14 +129,15 @@ padding: 10px;
 
 
 .video1{
-background: url(img/1-row1-netflix-hero.jpg) no-repeat left center;
+background: url(img/orig-mindhunter.jpg) no-repeat left center;
 	height:220px; 
+    -webkit-background-size: cover; 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .video2{
-background: url(img/1-row3-1-unnatural-selection.jpg) no-repeat left center;
+background: url(img/orig-the-hunters-prayer.jpg) no-repeat left center;
 	height:220px; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -251,7 +145,7 @@ background: url(img/1-row3-1-unnatural-selection.jpg) no-repeat left center;
     background-size: cover;
 }
 .video3{
-background: url(img/1-row3-4-the-brave-one.jpg) no-repeat left center;
+background: url(img/orig-living-undocumented.jpg) no-repeat left center;
 	height:220px;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,6 +177,51 @@ color: #fff;
 .video1{
 background: -webkit-linear-gradient(45deg, rgba(231, 31 17, .5) 0%, #000 100%), url(https://comicsagogo.fines.wordpress.com/........jpg);
 }
+
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+	margin-top:150px;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+
+	color:white;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
+}
+
+
+
+
+
+
 
 /* 2nd css styling ................ Global Styles */
 :root {
@@ -421,7 +360,7 @@ img {
 	color: white;
 } */
 
-.tabs .hide-sm {
+/* .tabs .hide-sm {
     font-size: 1.0rem;
 	padding-top: 0.5rem;
 	color: black;
@@ -431,13 +370,13 @@ img {
 	color: #595959;
 	cursor: crosshair;
 	/* width: 100%; */
-}
+} */
 
 /* .tabs .container {
 	width: 100%;
 } */
 
-.tabs .tab-item .fas {
+/* .tabs .tab-item .fas {
     
 	color:black;
 }
@@ -454,10 +393,10 @@ img {
 
 .tab-border {
 	border-bottom: var(--primary-color) 4px solid;
-}
+} */
 
 /* Tab Content */
-.tab-content {
+/* .tab-content {
 	padding: 3rem 0;
 	background: #000;
 	color: #fff;
@@ -538,46 +477,7 @@ img {
 
 .table tbody tr:nth-child(odd) {
 	background: #222;
-}
-
-.footer {
-	max-width: 70%;
-	margin: 1rem auto;
-	overflow: auto;
-	margin-top:150px;
-}
-
-.footer,
-.footer a {
-	color: #999;
-	font-size: 0.9rem;
-}
-
-.footer p {
-	margin-bottom: 1.5rem;
-
-	color:white;
-}
-
-.footer .footer-cols {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 2rem;
-}
-
-.footer li {
-	line-height: 1.9;
-}
-
-.footer .lang-select {
-	margin-top: 2rem;
-	color: #999;
-	background-color: #000;
-	background-image: none;
-	border: 1px solid #333;
-	padding: 1rem 1.2rem;
-	border-radius: 5px;
-}
+} */
 
 /* Container */
 .container {
