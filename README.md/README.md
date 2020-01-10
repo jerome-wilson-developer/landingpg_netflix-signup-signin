@@ -1,18 +1,20 @@
-# landingpg_netflix-signup-signin
 
-I cloned this promotional email sent from Udemy's marketing department. It promotes their reasons for 
-people to buy educational courses from them. Udemy is in the top 5 most commonly used online schools 
-for short, niche, educational, instructional courses taught by people who are actually finanacially 
-successful in the industry they are teaching. This clone displays the features and benefits of using 
-Udemy to advance your career and your life-long learning ambitions. It also provides several useful 
-'quickLinks' to their commonly visited webpages, links to download their app, and also helpful links 
-to their commonly requested FAQ pages.
+# Landing Pages
 
-TECHNOLOGIES USED: html tables, html5, css3, mobile responsive, web accessible, GITHUB , npm, NETLIFY .
+## Netflix: Sign-up or sign-in to watch new movie releases
+The goal of this landing page email sent from Netflix is to encourage their current customers to continue membership and to 'not' unsubscribe. Netflix encourages email recipients to continue their subscription by adding new docuseries, movies, tv series, and original content.
 
-DISCLAIMER: This corporation's "email clone" is for Demonstration Purposes Only. No infringements are intended 
-against their corporate copyrights, trademarks, patents, intellectual properties, or any other proprietary assets.
+## TECHNOLOGIES USED:
+html5, css3, mobile responsive, web accessible, GITHUB , npm, webpack, NETLIFY, lighthouse audit, NVDA, etc.
 
-Github pages link: https://github
+## DISCLAIMER:
+The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary asse ts. All images are the property of its respective owners. Please contact me if there are any issues. Thank you!
 
-Netlify link: https://landingpg-netflix-signup-signin.netlify.com/
+## ACCESSIBILITY:
+I used accessibility code to increase this page's web accessibility. I mostly used aria-role landmarks and tabindex code to increase focus and access. There is a strong movement in the web development world to build and code web content that is accessible to everybody. Lawsuits and accessility standards are happenning regularly. Some statistics report there are over 1 billion people worldwide who have difficulties using web content because of different disabilities.
+
+## Github pages link:
+https://jerome-wilson-developer.github.io/landingpg_netflix-signup-signin/
+
+## Netlify link:
+https://landingpg-netflix-signup-signin.netlify.com/
